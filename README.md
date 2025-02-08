@@ -20,6 +20,10 @@ A modern job board application built with Nuxt 3, featuring real-time search, fi
 
 > This template and many others are available at [NuxtMint.com](https://nuxtmint.com)
 
+[![Discord](https://img.shields.io/badge/Discord-Join_Us!-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/dZF8tDgBrM)
+
+> Join our friendly Discord community to get help, share your ideas, and connect with other developers!
+
 ## Features
 
 - 🔍 Real-time job search and filtering
