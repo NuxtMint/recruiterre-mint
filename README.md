@@ -1,10 +1,24 @@
+# 👔 Recruiterre - Modern Job Board
+
+<div align="center">
+
+[![Nuxt 3](https://img.shields.io/badge/Nuxt-3-00DC82?style=for-the-badge&logo=nuxt.js)](https://nuxt.com)
+[![Vue 3](https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vue.js)](https://vuejs.org)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+A modern job board application built with Nuxt 3, featuring real-time search, filtering, and an interactive map interface.
+
+[Demo](https://recruiterre-os.nuxtmint.com) · [Report Bug](https://github.com/NuxtMint/recruiterre-mint/issues) · [Request Feature](https://github.com/NuxtMint/recruiterre-mint/issues)
+
+</div>
+
+## 💝 Support My Work
+
 [![NuxtMint](https://nuxtmint.com/nuxt-mint-logo.png)](https://nuxtmint.com)
 
 > This template and many others are available at [NuxtMint.com](https://nuxtmint.com)
-
-# Modern Job Board
-
-A modern job board application built with Nuxt 3, featuring real-time search, filtering, and an interactive map interface.
 
 ## Features
 
