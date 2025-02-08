@@ -44,8 +44,12 @@ const emit = defineEmits<{
     </div>
 
     <div
-      class="group bg-white rounded-2xl hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-jobs-primary/20 relative overflow-hidden"
-      :class="{ 'border-jobs-primary/30 shadow-lg': job.featured }"
+      class="group bg-white hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-jobs-primary/20 relative overflow-hidden"
+      :class="
+        job.featured
+          ? 'border-jobs-primary/30 rounded-tr-2xl rounded-bl-2xl'
+          : 'rounded-2xl'
+      "
     >
       <!-- Enhanced gradient background for featured jobs -->
       <div
