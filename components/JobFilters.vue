@@ -25,8 +25,13 @@ const removeTagFilter = (tag: string) => {
 
 const tags = ['Frontend', 'Backend', 'DevOps', 'Design', 'Marketing'];
 const handleTagSelect = (tag: string) => {
-  filters.value.tags.push(tag);
+  if (filters.value.tags.includes(tag)) {
+    filters.value.tags.splice(filters.value.tags.indexOf(tag), 1);
+  } else {
+    filters.value.tags.push(tag);
+  }
 };
+
 
 // Add new refs for salary display
 const formattedSalary = computed(() => {
