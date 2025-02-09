@@ -32,6 +32,7 @@ const handleTagSelect = (tag: string) => {
   }
 };
 
+
 // Add new refs for salary display
 const formattedSalary = computed(() => {
   return new Intl.NumberFormat('en-US', {
