@@ -14,7 +14,7 @@
 
         <div class="flex items-center gap-6">
           <div
-            v-for="link in ['Offres', 'Entreprises', 'Blog']"
+            v-for="link in ['Offers', 'Entreprises', 'Blog']"
             :key="link"
             class="text-gray-600 hover:text-jobs-primary transition-colors"
           >
