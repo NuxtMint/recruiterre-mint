@@ -1,34 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50 flex flex-col w-full">
     <!-- Header -->
-    <header class="container flex items-center justify-center mx-auto w-full">
-      <nav
-        class="max-w-7xl px-4 h-16 flex items-center justify-between"
-        :class="[
-          ' w-full fixed top-4 p-2 rounded-md bg-white/70 shadow-sm z-50 transition-all duration-300 backdrop-blur-lg',
-        ]"
-      >
-        <NuxtLink to="/" class="text-2xl font-bold text-jobs-primary">
-          JobBoard
-        </NuxtLink>
-
-        <div class="flex items-center gap-6">
-          <div
-            v-for="link in ['Offres', 'Entreprises', 'Blog']"
-            :key="link"
-            class="text-gray-600 hover:text-jobs-primary transition-colors"
-          >
-            {{ link }}
-          </div>
-
-          <div
-            class="bg-jobs-primary text-white px-4 py-2 rounded-md hover:bg-jobs-primary/90 transition-all hover:scale-105"
-          >
-            Publish a job
-          </div>
-        </div>
-      </nav>
-    </header>
+      <Navbar />
 
     <!-- Main content -->
     <main class="flex-1">
