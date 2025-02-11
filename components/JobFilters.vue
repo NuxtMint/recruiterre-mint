@@ -31,8 +31,6 @@ const handleTagSelect = (tag: string) => {
     filters.value.tags.push(tag);
   }
 };
-
-
 // Add new refs for salary display
 const formattedSalary = computed(() => {
   return new Intl.NumberFormat('en-US', {
@@ -168,9 +166,9 @@ onUnmounted(() => {
         {{ tag }}
         <button
           @click="removeTagFilter(tag)"
-          class="hover:text-jobs-accent transition-colors"
+          class="hover:text-jobs-accent flex items-center transition-colors"
         >
-          <Icon name="uil:times" class="w-4 h-4" />
+          <Icon name="uil:times" class="size-4" />
         </button>
       </div>
     </div>
